@@ -1,62 +1,5 @@
-// NOTE: Follow's json syntax except includes ability to comment with double forward slashes.
-
 {
 "shortcuts": [
-        {
-            // Hide cell outputs
-            "command": "notebook:hide-cell-outputs",
-            "keys": [
-                "L"
-            ],
-            "selector": ".jp-Notebook:focus"
-        },
-        {
-            // Show cell outputs
-            "command": "notebook:show-cell-outputs",
-            "keys": [
-                "Shift L"
-            ],
-            "selector": ".jp-Notebook:focus"
-        },
-        {
-            // Hide cell code
-            "command": "notebook:hide-cell-code",
-            "keys": [
-                "H"
-            ],
-            "selector": ".jp-Notebook:focus"
-        },
-        {
-            // Show cell code
-            "command": "notebook:show-cell-code",
-            "keys": [
-                "Shift H"
-            ],
-            "selector": ".jp-Notebook:focus"
-        },
-        {
-            // Move cell up
-            "command": "notebook:move-cell-up",
-              "keys": [
-                "Ctrl ArrowUp"
-              ],
-              "selector": ".jp-Notebook:focus",
-        },
-        {
-            // Move cell down
-            "command": "notebook:move-cell-down",
-              "keys": [
-                "Ctrl ArrowDown"
-              ],
-              "selector": ".jp-Notebook:focus",
-        },
-        {
-            "command": "notebook:run-all-above",
-              "keys": [
-                "Shift A"
-              ],
-              "selector": ".jp-Notebook:focus",
-        },
         {
             "command": "notebook:hide-cell-outputs",
             "keys": [
@@ -82,6 +25,13 @@
             "command": "notebook:clear-cell-output",
             "keys": [
                 "Ctrl C"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "notebook:run-all-above",
+            "keys": [
+                "Ctrl Shift A"
             ],
             "selector": ".jp-Notebook:focus"
         }
