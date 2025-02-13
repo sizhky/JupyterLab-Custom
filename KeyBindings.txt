@@ -51,12 +51,39 @@
               "selector": ".jp-Notebook:focus",
         },
         {
-            // Move cell down
             "command": "notebook:run-all-above",
               "keys": [
-                "Ctrl Q"
+                "Shift A"
               ],
               "selector": ".jp-Notebook:focus",
         },
+        {
+            "command": "notebook:hide-cell-outputs",
+            "keys": [
+                "H"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "notebook:show-cell-outputs",
+            "keys": [
+                "Shift H"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "notebook:clear-all-cell-outputs",
+            "keys": [
+                "Shift C"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "notebook:clear-cell-output",
+            "keys": [
+                "Ctrl C"
+            ],
+            "selector": ".jp-Notebook:focus"
+        }
     ]
 }
